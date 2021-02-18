@@ -1,0 +1,23 @@
+body {
+  background-color: coral;
+}
+
+iframe {
+  width: 100%;
+}
+
+p {
+  width: 500px;
+  text-align: justify;
+  padding: 10px 0px;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+img {
+  width: 500px;
+  height: auto;
+}
+
+h3 {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
