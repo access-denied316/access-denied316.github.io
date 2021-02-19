@@ -47,7 +47,7 @@ p {
 }
 
 .background {
-  background-image: url("gamfroge.gif");
+  background-image: url("garfeld/gamfroge.gif");
   background-repeat: repeat;
   animation: marquee 30s infinite linear;
 }
@@ -92,4 +92,13 @@ p {
 
 iframe {
   width: 100%;
+}
+
+div.ancmt img {
+  width: 150px;
+  height: auto;
+}
+
+img.flip {
+  transform: rotate(180deg);
 }
