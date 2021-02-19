@@ -63,7 +63,7 @@ p {
   margin-right: auto;
   width: 40%;
 }
-.arrow {
+/* .arrow {
   border: solid black;
   border-width: 0 3px 3px 0;
   display: inline-block;
@@ -88,7 +88,7 @@ p {
 .down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
-}
+} */
 
 iframe {
   width: 100%;
@@ -101,4 +101,16 @@ div.ancmt img {
 
 img.flip {
   transform: rotate(180deg);
+}
+
+.row {
+  display: flex;
+}
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 70%;
 }
