@@ -1,0 +1,33 @@
+iframe {
+  width: 100%;
+}
+
+body {
+  text-align: center;
+  font-weight: 700;
+}
+
+.title {
+  text-align: left;
+}
+
+div.ftm a {
+  text-decoration: none;
+  color: rgb(255, 0, 255);
+  font-family: segoe print;
+}
+
+div.miscLinks a {
+  text-decoration: none;
+  color: #4b64ff;
+  font-family: segoe print;
+}
+
+div.miscLinks p {
+  color: red;
+  font-family: segoe print;
+}
+
+br {
+  height: 1cm;
+}
