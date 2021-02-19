@@ -1,0 +1,113 @@
+body {
+  background-color: coral;
+}
+
+iframe {
+  width: 100%;
+}
+
+p {
+  width: auto;
+  text-align: justify;
+  padding: 10px 0px;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+div.right p:hover {
+  background-color: black;
+  color: white;
+}
+
+img {
+  width: 70%;
+  height: auto;
+  cursor: help;
+}
+
+img:hover {
+  width: 71%;
+  height: auto;
+  cursor: zoom-out;
+}
+
+img:active {
+  width: 50%;
+  height: auto;
+}
+h1 {
+  width: auto;
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+}
+
+h1:hover {
+  text-align: right;
+  /* width: 100px; */
+  cursor: grab;
+  float: right;
+}
+
+h2 {
+  width: 95%;
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h3 {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+.row {
+  display: flex;
+}
+
+.left {
+  width: 30%;
+}
+
+.right {
+  width: 70%;
+}
+
+iframe {
+  display: flex;
+}
+
+.superfact {
+  animation-duration: 400ms;
+  animation-name: blink;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  display: inline-block;
+}
+
+.spinning {
+  animation-name: spin;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  width: 150px;
+  display: block;
+  height: auto;
+}
+
+@keyframes blink {
+  from {
+    color: red;
+  }
+  to {
+    color: black;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+    opacity: 100%;
+    /* width: 100px; */
+  }
+  to {
+    transform: rotate(360deg);
+    opacity: 25%;
+    /* width: 120px; */
+  }
+}
