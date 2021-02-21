@@ -95,6 +95,12 @@ iframe {
   height: 65px;
 }
 
+.sidenav {
+  width: 100%;
+  height: 1200px;
+  border: solid;
+}
+
 div.ancmt img {
   width: 150px;
   height: auto;
