@@ -95,6 +95,11 @@ iframe {
   height: 65px;
 }
 
+iframe.youtube {
+  width: 560px;
+  height: 315px;
+}
+
 .sidenav {
   width: 100%;
   height: 1200px;
