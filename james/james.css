@@ -1,0 +1,41 @@
+iframe {
+  width: 100%;
+  height: 65px;
+}
+
+.row {
+  display: flex;
+}
+
+.sidebar {
+  width: 25%;
+}
+
+.center {
+  padding: 5px;
+  width: 50%;
+}
+
+img {
+  width: 90%;
+  height: auto;
+}
+
+video {
+  width: 90%;
+  height: auto;
+}
+
+.fixed {
+  position: fixed;
+  top: 0%;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #73ad21;
+  pointer-events: none;
+}
+
+.fixed img {
+  width: 50px;
+}
