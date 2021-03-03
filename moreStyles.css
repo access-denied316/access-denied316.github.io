@@ -33,3 +33,8 @@ img {
 .column {
   width: 50%;
 }
+
+.post {
+  border: solid;
+  border-color: gray;
+}
