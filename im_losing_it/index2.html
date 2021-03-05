@@ -13,10 +13,19 @@
     <iframe src="../nav.html" frameborder="0"></iframe>
     <div class="row">
       <div class="column">
-        <img src="anime.png" alt="" />
-        <img src="farley.jpg" alt="" />
-        <img src="the fix.jpg" alt="" />
-        <img src="toenails.jpg" alt="" />
+        <script language="JavaScript">
+          var r_img = new Array();
+          r_img[0] = "anime.png";
+          r_img[1] = "farley.jpg";
+          r_img[2] = "the fix.jpg";
+          r_img[3] = "toenails.jpg";
+          r_img[4] = "doomer_girl.jpg";
+          r_img[5] = "i dont.jpg";
+          r_img[6] = "mgid_ao_image_mtv.jpg";
+          r_img[7] = "wallpods.jpg";
+          var i = Math.floor(r_img.length * Math.random());
+          document.write('<img src="' + r_img[i] + '" />');
+        </script>
       </div>
     </div>
   </body>
