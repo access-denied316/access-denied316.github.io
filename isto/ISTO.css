@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: yellow;
+  text-align: center;
+  font-family: Arial;
+}
+
+h2 {
+  color: aqua;
+  text-align: -webkit-center;
+  width: 600px;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  margin-left: auto;
+  margin-bottom: auto;
+}
+
+.left {
+  margin-left: 10px;
+  margin-right: auto;
+}
+
+p {
+  color: aqua;
+  font-family: arial;
+  font-size: 32;
+}
